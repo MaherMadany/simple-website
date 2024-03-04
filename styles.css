@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+#logo {
+  max-width: 150px;
+}
+
+main {
+  padding: 20px;
+}
+
+#lesson-image {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+#dialogue {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  background: aquamarine;
+}
+
+button {
+  cursor: pointer;
+}

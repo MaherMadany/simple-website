@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Prototype Lesson</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to your CSS file -->
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.jpg" alt="Your Logo" id="logo" />
+      <!-- Your logo -->
+    </header>
+
+    <>
+      <video controls>
+        <source src="videos/presentation.mp4" type="video/mp4">
+        <!-- Your presentation video -->
+        Your browser does not support the video tag.
+      </video>
+
+      <img src="images/lesson-image1.webp" alt="Lesson Scene" id="lesson-image" />
+      <!-- Lesson image -->
+      <div id="google_translate_element"></div>
+        
+        <script src ="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script>
+            function googleTranslateElementInit(){
+              new google.translate.TranslateElement(
+                  {pageLanguage: 'it'},
+                  'google_translate_element'
+              );
+            }
+        </script>
+      
+      <div id="dialogue">
+        <!-- Your lesson dialogue will go here -->
+        <script>
+           let Maria1 = new Audio();
+           Maria1.src = "audio/1-Maria (1).mp3"
+           let Maria2 = new Audio();
+           Maria2.src = "audio/Lucia-1.mp3"
+        </script>
+        <ul>
+      <li> <button onmousedown="Maria1.play()"  class ="btn"> <strong>Maria:</strong> &#9658</button> Se potessi scegliere qualsiasi posto, dove organizzeresti una festa a sorpresa per Elena? </li>
+      <li> <button onmousedown="Maria2.play()"  class ="btn"> <strong>Lucia:</strong> &#9658</button> Farei la festa in un piccolo ristorante italiano. Che ne pensi? </li>
+      <li>  Sofia: Sarebbe perfetto. E se invitassimo anche i suoi vecchi amici del liceo?</li>
+      <li> Lucia: E se il nostro budget lo permettesse, forse potremmo assumere una piccola band? </li>
+      <li>	Giacomo: Che ne dici di fare un video con tutti i suoi ricordi più belli? </li>
+      <li>	Maria: Dovremmo chiedere a tutti di contribuire con le foto. Pensi che potremmo organizzare tutto in tempo?</li>
+      <li>	Sofia: Se iniziassimo a pianificare subito, credo che ce la faremmo. Chi potrebbe occuparsi del video?</li>
+      <li>	Giacomo: Potrei occuparmene io. Maria, ti dispiacerebbe occuparti degli inviti? </li>
+      <li>	Lucia: Allora, cercherei un ristorante e preparerei il menù. Dovrei prenotare per questo sabato? </li>
+      <li>	Sofia: Mi piace tantissimo! E potrei conoscere una band che suona le canzoni preferite di Elena. </li>
+      <li>	Maria: Fantastico! E penso che potrei ottenere un buon prezzo per alcune decorazioni che si abbinano all'ambiente del ristorante.</li>
+      <li>	Giacomo: Se dividessimo i compiti, rendere la notte indimenticabile per Elena.</li>
+      <li>	Lucia: Dovremmo anche considerare un tema. Se Elena potesse andare da qualche parte, dove sarebbe?</li>
+      <li>	Sofia: Parla sempre di Parigi. E se facessimo una festa a tema parigino?</li>
+       <li> Maria: Sì, prenota. Se tutti collaborassimo, sarebbe davvero una festa indimenticabile per Elena</li>
+        </ul>
+      </div>
+      <div>
+        <iframe src="https://www.bookwidgets.com/play/qQ_6RCBb-iQAFEIMGOgAAA/WE93QWP?teacher_id=5567737089228800" width="100%" height="600" frameborder="0"></iframe>
+
+      </div>
+    </main>
+
+    <footer>
+      <!-- Any footer content like copyright notice -->
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Link to your JavaScript file -->
+  </body>
+</html>
